@@ -2,7 +2,7 @@
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
   <div id="badges">
   <a href = "https://www.linkedin.com/in/somasekhar-r-5913781b3/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/></a>
-  <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
+  <a href = "https://twitter.com/Somasekhar09"><img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/></a>
 </div>
 
 <div align="center">
@@ -13,7 +13,7 @@
 
   <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=somutech" alt="somutech" /></a> </p>
 
-  <li align="center"> 🔭 I’m currently working on [Machine Learning](https://github.com/SomuTech/SomuTech/edit/main/README.md) </li>
+  <li align="center"> 🔭 I’m currently working on [Machine Learning](https://github.com/SomuTech/Leaf-Disease-Detection-Cure-ML) </li>
 
  <li> 🌱 I’m currently learning **DS and Algorithms** </li>
 
