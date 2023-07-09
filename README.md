@@ -13,7 +13,7 @@
 
   <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=somutech" alt="somutech" /></a> </p>
 
-  <li align="center"> 🔭 I’m currently working on [Machine Learning](https://github.com/SomuTech/Leaf-Disease-Detection-Cure-ML) </li>
+  <li align="center"> 🔭</li>
 
  <li> 🌱 I’m currently learning **DS and Algorithms** </li>
 
