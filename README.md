@@ -27,33 +27,18 @@
 </div>
 
 <h1></h1>
-<div style="text-align: center; margin: 20px;">
-  <h3 style="color: #4CAF50;">Languages and Tools</h3>
-  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px;">
-    <div style="border: 2px solid #4CAF50; border-radius: 10px; padding: 10px; width: 150px;">
-      <span style="color: #4CAF50; font-size: 18px;"><strong>Python</strong></span>
-    </div>
-    <div style="border: 2px solid #2196F3; border-radius: 10px; padding: 10px; width: 150px;">
-      <span style="color: #2196F3; font-size: 18px;"><strong>Langchain</strong></span>
-    </div>
-    <div style="border: 2px solid #FF9800; border-radius: 10px; padding: 10px; width: 150px;">
-      <span style="color: #FF9800; font-size: 18px;"><strong>AWS Services</strong></span>
-    </div>
-    <div style="border: 2px solid #9C27B0; border-radius: 10px; padding: 10px; width: 150px;">
-      <span style="color: #9C27B0; font-size: 18px;"><strong>RAG</strong></span>
-    </div>
-    <div style="border: 2px solid #F44336; border-radius: 10px; padding: 10px; width: 150px;">
-      <span style="color: #F44336; font-size: 18px;"><strong>LLM</strong></span>
-    </div>
-    <div style="border: 2px solid #3F51B5; border-radius: 10px; padding: 10px; width: 150px;">
-      <span style="color: #3F51B5; font-size: 18px;"><strong>Prompt Engineering</strong></span>
-    </div>
-    <div style="border: 2px solid #009688; border-radius: 10px; padding: 10px; width: 150px;">
-      <span style="color: #009688; font-size: 18px;"><strong>Code Companions (Copilot, Amazon Q)</strong></span>
-    </div>
-  </div>
+<div>
+  <h3 align="center">Languages and Tools:</h3>
+  <p align="center" style="flex: space-between;">
+    <span>Python</span><br>
+    <span>Langchain</span><br>
+    <span>AWS Services</span><br>
+    <span>RAG</span><br>
+    <span>LLM</span><br>
+    <span>Prompt Engineering</span><br>
+    <span>Code Companions (Copilot, Amazon Q)</span>
+  </p>
 </div>
-
 
 <h1></h1>
 <div>
