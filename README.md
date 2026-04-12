@@ -2,17 +2,12 @@
 
 # Somasekhar Ravvala
 
-### Backend Engineer • Generative AI Systems • Agentic AI
+### Generative AI Engineer • Backend Systems • Agentic AI
 
-Building scalable backend systems and production-grade GenAI applications with focus on **RAG, Agents, and AI-driven automation**.
+Building production-grade GenAI applications with focus on **LLM integration, agentic workflows, real-time systems, and MCP-based architecture**.
 
-<a href="https://linkedin.com/in/rsomasekhar">
-<img src="https://img.shields.io/badge/LinkedIn-Somasekhar-blue?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://github.com/SomuTech">
-<img src="https://img.shields.io/badge/GitHub-SomuTech-black?style=for-the-badge&logo=github"/>
-</a>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Somasekhar-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rsomasekhar)
+[![GitHub](https://img.shields.io/badge/GitHub-SomuTech-black?style=for-the-badge&logo=github)](https://github.com/SomuTech)
 
 </div>
 
@@ -20,120 +15,152 @@ Building scalable backend systems and production-grade GenAI applications with f
 
 ## 🚀 About Me
 
-Backend engineer with **3+ years of experience** building scalable APIs and working extensively on **Generative AI systems**.
+Backend engineer with **3+ years of experience** building scalable systems and extensively working with **production-grade Generative AI applications**.
 
-- Strong in **Python backend development + system design**
-- Building **real-world GenAI applications (RAG, Agents, MCP-based systems)**
-- Focused on **performance, scalability, and clean architecture**
-- Experience leveraging AI tools to **accelerate SDLC (code generation, optimization, testing)**
+- Strong in **Python backend + LLM infrastructure** (RAG, agents, MCP, streaming, real-time systems)
+- Building **complex GenAI systems** that handle real constraints (latency, rate limiting, state management)
+- Focused on **performance, scalability, and production-ready code**
+- Experience with **Claude API, LangChain, LangGraph, vector databases, and MCP frameworks**
 
 ---
 
 ## 🧠 What I Build
 
-- **RAG Systems** → semantic search, document intelligence
-- **Agentic Workflows** → multi-step reasoning, tool orchestration
-- **AI-powered Backend APIs** → scalable FastAPI services
-- **Automation Systems** → reducing manual engineering effort using AI
+- **Agentic Workflows** → multi-step reasoning, tool orchestration, dynamic decision-making
+- **RAG Systems** → semantic search, document intelligence, retrieval optimization
+- **LLM-powered APIs** → Claude integration, streaming responses, cost optimization
+- **Real-time AI Systems** → low-latency decision making, event-driven architectures
+- **MCP Servers** → structured tool definitions, API integration, scalable tool abstractions
 
 ---
 
 ## 🛠 Tech Stack
 
 ### Languages
+
 `Python` • `Java` • `SQL`
 
-### Backend
-`FastAPI` • `Flask` • `Django` • REST API Design
+### Backend & Systems
 
-### GenAI / LLM
-- RAG (Retrieval Augmented Generation)
-- LangChain, LangGraph
-- Prompt Engineering
-- Model Context Protocol (MCP)
-- Agent-based architectures
+`FastAPI` • `Flask` • `Django` • REST API Design • Async/Await • Event-driven Architecture
 
-### Cloud & Infra
-`AWS (Lambda, API Gateway, S3, Bedrock, DynamoDB, CloudWatch, ECS Fargate, SQS)` • `Docker`
+### Generative AI / LLM
+
+- **LLM Frameworks:** Claude API, LangChain, LangGraph
+- **Retrieval & Search:** RAG pipelines, vector databases, semantic search, hybrid search
+- **Agent Architecture:** ReAct pattern, tool orchestration, state management, reasoning loops
+- **Infrastructure:** Model Context Protocol (MCP), streaming, prompt engineering
+- **Fine-tuning & Optimization:** Prompt optimization, cost reduction, latency tuning
+
+### Cloud & Infrastructure
+
+`AWS (Lambda, API Gateway, S3, Bedrock, DynamoDB, CloudWatch, ECS Fargate, SQS)` • `Docker` • `PostgreSQL with Vector Extensions`
 
 ### Databases
-`PostgreSQL` • `MySQL` • `MongoDB`
+
+`PostgreSQL` • `MongoDB` • `DynamoDB` • `Vector Databases (Pinecone, Weaviate concepts)`
 
 ---
 
 ## 💡 Projects
 
-### 🔹 SmartDoc Assistant
-RAG-based document intelligence system enabling semantic search and question answering over documents.
+### 🔹 Realtime Options Trading Agent
 
-**Key Highlights:**
-- Implemented end-to-end RAG pipeline (embedding → retrieval → generation)
-- Optimized chunking and retrieval strategies for better answer accuracy
-- Designed scalable backend for document ingestion and querying
+**Problem:** Make trading decisions in <30 seconds using real-time market data under API rate limits.
 
-**Repository:**  
-https://github.com/SomuTech/genai-experiments/tree/main/smartdoc_assistant_RAG
+Claude-powered agent for SENSEX/Nifty 50 options using MCP. Combines price action reasoning with real-time data orchestration.
+
+**Implementation highlights:**
+
+- **MCP Server Design:** Built structured tool definitions for market snapshots, candle analysis, options pricing, technical indicators
+- **LLM Integration:** Claude reasoning loop for entry/exit decisions using price action analysis (not lagging indicators)
+- **API Constraint Handling:** Solved Angel One rate limiting (50 req/min during live hours) by migrating to Dhan API (25 req/sec, 250/min, 5000/day)
+- **Real-time Architecture:** Async event-driven backend with <500ms response times for decision-making
+- **State Management:** Persistent trading rules and decision history for pattern recognition across trades
+- **Production Rules:** Trading rulebook with bounce trap detection, double-bottom retest patterns, OI-based strike selection
+
+**Why this matters:**
+
+Shows you can build LLM systems under real constraints: time pressure, API limits, state persistence, and production-grade decision logic.
+
+**Repository:** https://github.com/SomuTech/realtime-options-agent
+
+---
+
+### 🔹 SmartDoc RAG Assistant
+
+**Problem:** Semantic search and Q&A over large document collections without full document re-reads.
+
+End-to-end RAG system for intelligent document search, answer generation, and document intelligence.
+
+**Implementation highlights:**
+
+- **RAG Pipeline:** Document chunking, embedding generation, vector storage, semantic retrieval, LLM generation
+- **Retrieval Optimization:** Hybrid search (semantic + keyword matching) for precision improvement
+- **Performance Tuning:** Chunk size and overlap optimization reduced hallucination rate and improved F1 score
+- **Backend Scalability:** FastAPI service with PostgreSQL for metadata, vector indexing for semantic search
+- **Production Features:** Caching layer, concurrent request handling, error recovery, response streaming
+
+**Why this matters:**
+
+Shows you understand modern RAG patterns, retrieval engineering, and production LLM application architecture.
+
+**Repository:** https://github.com/SomuTech/genai-experiments/tree/main/smartdoc_assistant_RAG
 
 ---
 
 ### 🔹 Deep Research Agent
-Agent-based research system capable of multi-step reasoning and tool usage.
 
-**Key Highlights:**
-- Built multi-agent workflows using LangGraph
-- Supports iterative reasoning and dynamic tool execution
-- Designed architecture for extensible research pipelines
+**Problem:** Automate complex research tasks requiring multi-step reasoning, tool usage, and iterative refinement.
 
-**Repository:**  
-https://github.com/SomuTech/genai-experiments/tree/main/deep_research_AGENT
+Multi-agent system for research automation using agentic workflows and tool orchestration.
 
----
+**Implementation highlights:**
 
-### 🔹 Realtime Options Trading Agent
-Claude-powered realtime trading agent for SENSEX/Nifty 50 options using MCP.
+- **Agentic Loop:** Planning → tool execution → reflection → iteration using LangGraph
+- **Tool Orchestration:** Dynamic tool selection and chaining for research workflows
+- **State Management:** Persistent reasoning state, memory management for long-running workflows
+- **Extensibility:** Plugin architecture for adding new tools and agents without code changes
+- **Error Handling:** Graceful failure recovery, fallback strategies, timeout management
 
-**Key Highlights:**
-- Integrated LLM with real-time market data
-- Implemented decision-making workflows for trading signals
-- Built event-driven backend for low-latency processing
+**Why this matters:**
 
-**Repository:**  
-https://github.com/SomuTech/realtime-options-agent
+Shows you can build complex agentic systems with robust state management and production-grade error handling.
+
+**Repository:** https://github.com/SomuTech/genai-experiments/tree/main/deep_research_AGENT
 
 ---
 
 ## 📊 GitHub Activity
 
 <p align="center">
-
 <img src="https://github-readme-stats.vercel.app/api?username=somutech&show_icons=true&theme=transparent"/>
-
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=somutech&layout=compact"/>
-
 </p>
 
 <p align="center">
-
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=somutech"/>
-
 </p>
 
 ---
 
 ## 🎯 Current Focus
 
-- Agentic AI architectures
-- LLM infrastructure & scaling
-- Backend system design
-- AI developer platforms
-- Automation using Generative AI
+- Agentic AI architectures and ReAct patterns
+- LLM infrastructure, scaling, and cost optimization
+- Real-time constraint systems with LLM reasoning
+- MCP-based tool abstractions and integrations
+- RAG systems and retrieval optimization
+- Production GenAI application design
 
 ---
 
 ## 📬 Open To
 
-- Backend Engineer (Python)
-- Generative AI Engineer
-- Backend / AI Systems Engineering roles
+- **Generative AI Engineer** roles (LLM infrastructure, agents, RAG)
+- **AI Systems Engineering** roles (agentic workflows, real-time systems)
+- **Backend Engineer** roles at AI-focused companies
+
+Interested in teams working on **hard problems** at the intersection of LLMs, systems design, and real-time constraints.
 
 ---
